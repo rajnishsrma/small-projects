@@ -1,0 +1,15 @@
+table, th, td{
+    border: 2px solid red;
+    border-collapse: collapse;
+    padding: 10px;
+}
+th:nth-child(even), td:nth-child(even){
+    background-color: aqua;
+}
+ .del{
+    background-color: lightcoral;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+   
+}
