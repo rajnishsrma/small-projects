@@ -2,7 +2,7 @@ const API_URL = "https://api.github.com/users";
 
 const Table = document.querySelector("table");
 const btn = document.querySelector(".del");
-const tr = document.querySelector("#trr");
+//const tr = document.querySelector("#trr");
 
 fetch(API_URL)
 .then((res)=>{
